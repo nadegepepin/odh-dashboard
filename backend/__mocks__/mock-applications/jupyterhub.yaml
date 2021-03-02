@@ -8,10 +8,12 @@ spec:
   kfdefApplications: ['jupyterhub', 'notebook-images']
   route: jupyterhub
   img: images/jupyterhub.svg
-  support: redhat
-  offering: SaaS
+  category: SaaS
   docsLink: https://jupyter.org/hub
-  quickstart: create-jupyter-notebook
-  tutorial: ''
-  getstartedLink: ''
-  getstartedMarkdown: ''
+  quickStart: create-jupyter-notebook
+  tutorial: https://airflow.apache.org/
+  tutorialLength: 15
+  howDoI: https://airflow.apache.org/
+  howDoILength: 15
+  getStartedLink: https://airflow.apache.org/
+  getStartedMarkdown: "# Getting started"
